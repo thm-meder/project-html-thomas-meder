@@ -1,89 +1,140 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Premier Exemple</title>
+		<title>Fate/New Apocrypha</title>
 		<meta charset="utf-8" />
+		<link href="custom.css" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
-  <h1>Ceci est le Premier Exemple</h1>
-		<h2>Voici des Paragraphes</h2>
-		<p id="p1">
-			Blablablabla.
-		</p>
-		<p>
-			Lorem Ipsum Dolor Sit Amet blablblablablablablablablablabla.<br/>
-			Lorem Ipsum Dolor Sit Amet blablblablablablablablablablabla.<br/>
-			Lorem Ipsum Dolor Sit Amet blablblablablablablablablablabla.<br/>
-			Lorem Ipsum Dolor Sit Amet blablblablablablablablablablabla.<br/>
-			Lorem Ipsum Dolor Sit Amet blablblablablablablablablablabla.<br/>
-		</p>
 
-			<h2>Voici des Listes</h2>
-			<h3>Ordonnée</h3>
-			<ol>
-				<li>Element 1</li>
-				<li>Element 2</li>
-				<li>Element 3</li>
-			</ol>
-			<h3>Non Ordonnée</h3>
-			<ul>
-				<li>Element 1</li>
-				<li>Element 2</li>
-				<li>Element 3</li>
-			</ul>
+    <div id="menu">
+      <a href="index.html">News</a>
+      <a href="setting.html">Setting</a>
+      <a href="characters.html">Characters</a>
+      <a href="game.html">How to play</a>
+			<a href="story.html">The Story so Far</a>
+			<a href="contact.html">Contact</a>
+		</div>
 
-			<h2>Voici des Liens</h2>
-			 <a href="https://www.google.com">Vers Google.</a><br/>
-			 <a href="#">Vers Ici.</a><br/>
-			 <a href="#p1">Vers Premier Paragraphe.</a><br/>
+    <section id="bodyContent">
 
-			<h2>Voici des Images</h2>
-			 <img src="http://via.placeholder.com/555x150/ff3285">
+      <h1>Welcome to the Fate/New Apocrypha RPG Official Website :</h1>
 
-			 <h2>Voici des Listes</h2>
- 			<h3>Table Simple</h3>
-			<table border="1">
-				<thead>
-					<tr>
-						<th>Col1</th>
-						<th>Col2</th>
-						<th>Col3</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Cellule 1</td>
-						<td>Cellule 2</td>
-	  					<td>Cellule 3</td>
-					</tr>
-				</tbody>
-			</table>
+      <section id="introduction">
+        <img src="http://via.placeholder.com/600x250/ff3285"/>
+        <h3 id="catchphrase">"Let me ask you only one thing : Are you my master?"</h3>
+        <p>Welcome to the Official Website for the Fate/New Apocrypha PR!
+        Here, you will find all the latest news on the project, in addition
+        to some exclusive content!</p>
+      </section>
 
-			<h3>Table avec cellules fusionnées</h3>
-			<table border="1">
-				<thead>
-					<tr>
-						<th colspan="2"><b>HEADER</b></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>1</td>
-						<td rowspan="2">FUSION</td>
-					</tr>
-					<tr>
-						<td>2</td>
-					</tr>
-					<tr>
-						<th colspan="2">FUSION</th>
-					</tr>
-				</tbody>
-			</table>
+      <section id="newsContainer">
+        <h3>News :</h3>
 
-		<br/>
-		<br/>
-		<br/>
+        <article id="news">
+          <h4>Only the Maps remains!... Well... Sorta.</h4>
+          <p id="content">
+            Great news everyone! I have the pleasure to announce you that all the NPC and
+            Servant sheets have finally be DONE! Now, all that's left is the mapping!...
+            Which is a long and time-consumming process. Especially while using a software
+            you don't know, like <a href="https://roll20.net/">Roll20</a>. But worry not dear friends! I can and will do it!
+          </p>
+          <span id="writer">-Cypher-Key</span>
+          <time datetime="2017-05-19">
+            19-05-2017
+          </time>
+        </article>
+
+        <article id="news">
+          <h4>Just 2 left!</h4>
+          <p id="content">
+            Another quick update to inform you that there is only two more Characters to finish!
+            One of them is a Servant, and the other is an NPC! We're almost there!
+            </p>
+          <span id="writer">-Cypher-Key</span>
+          <time datetime="2017-05-15">
+            15-05-2017
+          </time>
+        </article>
+
+        <article id="news">
+          <h4>Facebook, Character Sheets etcaetera </h4>
+          <p id="content">
+          Just a quick update to inform you that the facebook page has finally been created!
+          Also, only three Servant (including our dear Mathematician) and two NPC remains. Take care!
+            </p>
+          <span id="writer">-Cypher-Key</span>
+          <time datetime="2017-05-08">
+            08-05-2017
+          </time>
+        </article>
+
+        <article id="news">
+          <h4>Caster or Caster? The result!</h4>
+          <p id="content">
+            Hello everyone! It's time to reveal who among the two Caster I proposed you won the contest...
+            Aaaaaaand... It's the first one, the old man! Now, to reveal their identity, as promised:
+            Our loser of the day was none other than the Scientist of Syracuse, Archimedes itself!
+            And now, for our grand winner... I have the pleasure to inform you that James Moriarty will
+            be the Caster of this adventure! Thank you everyone for your support, and as always, take care!
+          </p>
+          <span id="writer">-Cypher-Key</span>
+          <time datetime="2017-04-26">
+            26-04-2017
+          </time>
+        </article>
+
+        <article id="news">
+          <h4>Caster or Caster? The Great Question!</h4>
+          <p id="content">
+            Hello everyone! I'm back, and I have something to ask you...
+          Could you decide for me which of these two guys would be the best Caster for the RP?
+           <img src="http://via.placeholder.com/200x300/ff3285"/>
+     			 <img src="http://via.placeholder.com/200x300/ff3285"/>
+           Tough choice, heh? Well, you can tell me who's your favourite among the two. I'll add him to the RP!
+           You have one week. Good luck!
+         </p>
+          <span id="writer">-Cypher-Key</span>
+          <time datetime="2017-04-19">
+            19-05-2017
+          </time>
+        </article>
+
+        <article id="news">
+          <h4>Half of the Servants are done!</h4>
+          <p id="content">
+            Good day everyone! Yup. You read the title right. Half of the Servant Character SHeets are done.
+            Which mean I can add some of them, but not reveal their identity. Just try and guess! As for the NPC,
+            I jus finished their stories and character Intruduction. Go check them out! That's all folks!
+          </p>
+          <span id="writer">-Cypher-Key</span>
+          <time datetime="2017-05-19">
+            19-05-2017
+          </time>
+        </article>
+
+      </section>
+
+    </section>
+
+  <footer>
+    <div id="footerContent">
+      <p id="closure">
+        The Fate franchise is a property of Type Moon. In no case I will use their characters,
+        their universe, the names, the terminology, or any related content to financial end.
+      </p>
+      <p id="closure">
+        Fate/Neo Apocrypha is my intellectual property. You can use their characters for work
+        of fiction, art or any other support, but you can't claim them as your own.
+      </p>
+
+      <span id=webmaster>
+        Website Made by Thomas MEDER  2017
+      </span>
+    </div>
+
+  </footer>
 
 	</body>
 </html>
