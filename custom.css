@@ -2,6 +2,44 @@ body{
   background-color:lightgrey;
 }
 
+h1{
+  text-align:center;
+}
+
+article{
+  background-color: #E5E7EB;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  box-shadow: 1px 2px 4px;
+}
+
+article h4{
+  margin-top: 2%;
+  margin-right: 5%;
+  text-align:justify;
+}
+
+article #content{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  text-align:justify;
+}
+
+article #writer{
+  margin-top: 2%;
+  margin-bottom: 4%;
+  text-align:right;
+}
+
+article time{
+  margin-bottom: 4%;
+  margin-left: 5%;
+  margin-top: 2%;
+  text-align:right;
+}
+
 #menu{
   overflow:hidden;
   position:fixed;
@@ -21,8 +59,9 @@ body{
 
 #bodyContent{
   margin-top:5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom:5%;
 }
 
 #footerContent{
