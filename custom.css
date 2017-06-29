@@ -1,3 +1,6 @@
+
+/*Main CSS*/
+
 body{
   background-color:lightgrey;
   font-family: helvetica, sans-serif, Arial;
@@ -5,6 +8,10 @@ body{
 
 h1, h2, h3{
   text-align:center;
+}
+
+h3{
+  padding-top:2%;
 }
 
 h3{
@@ -22,13 +29,14 @@ article{
 }
 
 article h4{
-  padding-top: 2%;
+  padding-top: 3%;
   margin-left: 7%;
   font-size:22px;
   text-align:justify;
 }
 
 article #content{
+  position:relative;
   margin-left: 7%;
   margin-right: 7%;
   margin-top: 2%;
@@ -96,4 +104,41 @@ article time{
   height: 8%;
   text-align:center;
   color:honeydew;
+}
+
+
+/*News*/
+#introduction img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#introduction #catchphrase{
+  font-size:20px;
+  padding-left: 35.5%;
+  padding-top:0%;
+}
+
+#introduction p{
+  text-align:center;
+}
+
+#news h4{
+  position:relative;
+}
+
+#news #content{
+  display: inline-block;
+}
+
+#news #content #img1{
+  padding-right:2%;
+  margin-bottom:2%;
+  float:left;
+}
+
+#news #content #img2{
+  padding-left:2%;
+  float:right;
 }
