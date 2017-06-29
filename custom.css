@@ -74,6 +74,7 @@ article time{
   width:100%;
   height: 8%;
   padding-left: 9.5%;
+  z-index: 99;
 }
 
 #menu a{
@@ -141,4 +142,12 @@ article time{
 #news #content #img2{
   padding-left:2%;
   float:right;
+}
+
+
+/*Setting*/
+#map{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
