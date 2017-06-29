@@ -1,43 +1,60 @@
 body{
   background-color:lightgrey;
+  font-family: helvetica, sans-serif, Arial;
 }
 
-h1{
+h1, h2, h3{
+  text-align:center;
+}
+
+h3{
+  font-style:italic;;
+  font-size: 24px;
   text-align:center;
 }
 
 article{
   background-color: #E5E7EB;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 2%;
   box-shadow: 1px 2px 4px;
 }
 
 article h4{
-  margin-top: 2%;
-  margin-right: 5%;
+  padding-top: 2%;
+  margin-left: 7%;
+  font-size:22px;
   text-align:justify;
 }
 
 article #content{
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
   margin-top: 2%;
+  margin-bottom:3%;
+  padding-top:2%;
+  padding-bottom:2%;
   text-align:justify;
+  border-top-style: dashed;
+  border-top-color: #BBC6CE /*#959595*/;
+  border-bottom-style: dashed;
+  border-bottom-color: #BBC6CE;
 }
 
 article #writer{
   margin-top: 2%;
-  margin-bottom: 4%;
-  text-align:right;
+  padding-bottom: 5%;
+  margin-left:76.5%;
+  font-size: 14px;
 }
 
 article time{
-  margin-bottom: 4%;
-  margin-left: 5%;
+  padding-bottom: 5%;
+  margin-left: 3%;
   margin-top: 2%;
-  text-align:right;
+  right:0;
+  font-size: 14px;
 }
 
 #menu{
@@ -48,13 +65,18 @@ article time{
   background-color:darkgrey;
   width:100%;
   height: 8%;
-  padding-left: 5%;
+  padding-left: 9.5%;
 }
 
 #menu a{
-  float : inline-block;
+  color:honeydew;
+  font-style: italic;
+  font-size:22px;
+  display : inline-block;
   text-align:center;
-  padding: 5% 5%;
+  padding-top:1.5%;
+  padding-right:9.5%;
+  text-decoration: none;
 }
 
 #bodyContent{
