@@ -10,12 +10,13 @@ h1, h2, h3{
   text-align:center;
 }
 
-h3{
-  padding-top:2%;
+h2{
+  font-style: italic;
 }
 
 h3{
-  font-style:italic;;
+  padding-top:2%;
+  font-style:italic;
   font-size: 24px;
   text-align:center;
 }
@@ -150,4 +151,23 @@ article time{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+/*Contact*/
+#contact #content{
+  display:inline-block;
+}
+
+#fbButton img{
+  float:
+  padding-top:5%;
+  padding-right:10%;
+  width:10%;
+}
+
+#twButton img{
+  padding-top:5%;
+  padding-right:10%;
+  width:10%;
 }
